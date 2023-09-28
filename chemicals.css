@@ -1,0 +1,151 @@
+#main{
+	height: 450px;
+	width: 500px;
+	background:black;
+	top: 50px;
+	box-shadow: 3px 3px 15px lightgreen,4px 4px 50px lightgreen inset;
+
+	border-radius: 8px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+body{
+	background: black;
+}
+/*#chem1{
+	position: fixed;
+	animation-name: chem;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	border-radius: 100px;
+	box-shadow: 1px 1px 5px lightgreen;
+	background-color: white;
+	height: 25px;
+	width: 25px;
+	animation-timing-function: linear;
+}
+
+#chem2{
+	position: fixed;
+	animation-name: chem;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	border-radius: 100px;
+	box-shadow: 1px 1px 5px lightgreen;
+	background-color: white;
+	height: 25px;
+	width: 25px;
+	left: 20px;
+
+	animation-timing-function: linear;
+}
+#chem3{
+	position: fixed;
+	animation-name: chem;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+	border-radius: 100px;
+	box-shadow: 1px 1px 5px lightgreen;
+	background-color: white;
+	height: 50px;
+	width: 50px;
+	left: 30px;
+
+	animation-timing-function: linear;
+}
+
+@keyframes chem{
+	0%{left: 20px;top:500px}
+	10%{left:0px;top:450px}
+	20%{rleft:20 px;top:400px}
+	30%{left:0px;top:350px}
+	40%{left:20px;top:300px}
+	50%{left:0px;top:250px}
+	60%{left:20px;top:200px}
+	70%{left:0px;top:150px}
+	80%{left:20px;top:100px}
+	90%{left:0px;top:50px}
+
+	100%{left: 20px;top:0px}
+}
+*/*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+#left{
+height: 380px;
+width: 250px;
+float: left;
+
+}
+#right{
+height: 380px;
+width: 250px;
+float: right;
+
+}
+#jar{
+	height: 150px;
+	width: 110px;
+	border: 2px solid white;
+	outline: 2px solid white;
+	box-shadow: 5px 5px 10px lightgreen, 8px 8px 20px lightslategrey inset ;
+	border-bottom-right-radius:20px ;
+	border-top-right-radius:3px ;
+	border-top-left-radius:3px ;
+
+	border-bottom-left-radius:20px ;
+	position: relative;
+	background: #fffff7;
+	top: 100px;
+	left: 100px;
+
+}
+#jarin{
+
+height:134px;
+width:103px;
+border-bottom-right-radius:18px;
+border-bottom-left-radius:18px;
+margin:1px;
+margin-top: 10px;
+}
+#formula{
+position: relative;
+top:15px;
+color:white;
+}
+#hi{
+	height: 20px;
+	width: 200px;
+	position: relative;
+	left: 20px;
+	top: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: black;
+	color: white;
+	box-shadow: 2px 2px 10px lightgreen;
+}
+#btn1{
+	height: 30px;
+	width: 150px;
+	border-radius: 4px;
+	cursor:pointer;
+	background: black;
+	box-shadow: 1px 1px 10px lightgreen;
+	color: white;
+}
+#btn2{
+	height: 30px;
+	width: 150px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 10px;
+	background: black;
+	box-shadow: 1px 1px 10px lightgreen;
+	color: white;
+}
+/*	background: rgba(30, 25, 50, 0.5);*/
